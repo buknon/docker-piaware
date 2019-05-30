@@ -11,7 +11,7 @@ apt-get -y --no-install-recommends install \
   librtlsdr-dev libusb-1.0-0-dev pkg-config dh-systemd libncurses5-dev libbladerf-dev
 
 cd /build
-git clone --depth=1 https://github.com/flightaware/piaware_builder
+git clone --depth=1 https://github.com/buknon/piaware_builder.git
 
 cd /build/piaware_builder
 ./sensible-build.sh bionic
